@@ -1,0 +1,22 @@
+ESTRUCTURA DE DATOS DE LOS ARCHIVOS 
+
+###### resultados.csv ########
+
+Ronda,  idPartido, pais1,  pais2,  resultadoPais1,  resultadoPais2
+
+###### pronosticos.csv ########
+
+Ronda, idPartido, idPersona,  pais1,   pais2,   ganaPais1,	ganaPais2,  empate
+
+
+En un primer intento coloque que una ronda tiene 2 partidos y,
+que el primer pronostico es sobre esos dos partidos.
+
+Resultados propuestos Ronda 1
+Partido 1 	Argentina (2) 	Alemania (1)
+Partido 2	Chile (3)	Francia (2)
+
+Pronostico Ronda 1
+Partido 1	Argentina gana
+Partido 2	Empate
+ 

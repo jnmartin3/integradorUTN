@@ -19,9 +19,11 @@ public class Pronostico_Metodo2 /*extends Partido*/{
 		Ronda = Integer.parseInt(Pronostico[0]);
 		Partido = Integer.parseInt(Pronostico[1]);
 		Player = Pronostico[2];		
-		Equipo = Pronostico[3];
-		Gana = Boolean.parseBoolean(Pronostico[5]);
-		Empate = Boolean.parseBoolean(Pronostico[6]);
+		Equipo1 = Pronostico[3];
+		Equipo2 = Pronostico[4];
+		Gana1 = Boolean.parseBoolean(Pronostico[5]);
+		Gana2 = Boolean.parseBoolean(Pronostico[6]);
+		Empate = Boolean.parseBoolean(Pronostico[7]);
 				
 	}
 	
@@ -29,23 +31,22 @@ public class Pronostico_Metodo2 /*extends Partido*/{
 	private int idPronostico;
 	private String Player;			// id del jugador/a que hizo ese pronostico
 	private int Partido;		// id del partido sobre el cuál se pronosticó
-	private String Equipo;
-	private String Resultado;	// si GANA, PIERDE o EMPATA... indicando por defecto lo que paso al otro equipo de ese partido 
-	private boolean Gana;
-	
-	public boolean isGana() {
-		return Gana;
-	}
-	public boolean isEmpate() {
-		return Empate;
-	}
-
+	private String Equipo1;
+	private String Equipo2;
+//	private String Resultado;	// si GANA, PIERDE o EMPATA... indicando por defecto lo que paso al otro equipo de ese partido 
+	private boolean Gana1;
+	private boolean Gana2;
 	private boolean Empate;
-	
-	
+		
 	
 	//Metodos getters y setters que permiten acceder a los argumentos de forma controlada
 
+	public boolean getGana1() {
+		return Gana1;
+	}
+	public boolean getEmpate1() {
+		return Empate;
+	}
 	public int getRonda() {
 		return Ronda;
 	}
@@ -68,18 +69,30 @@ public class Pronostico_Metodo2 /*extends Partido*/{
 	public void setPartido(int partido) {
 		Partido = partido;
 	}
-	public String getEquipo() {
-		return Equipo;
+	public String getEquipo1() {
+		return Equipo1;
 	}
-	public void setEquipo(String equipo) {
-		Equipo = equipo;
+	public void setEquipo1(String equipo) {
+		Equipo1 = equipo;
 	}
-	public String getResultado() {
-		return Resultado;
+//	public String getResultado() {
+//		return Resultado;
+//	}
+//	public void setResultado(String resultado) {
+//		Resultado = resultado;
+//	} 
+	public String getEquipo2() {
+		return Equipo2;
 	}
-	public void setResultado(String resultado) {
-		Resultado = resultado;
-	} 
+	public void setEquipo2(String equipo2) {
+		Equipo2 = equipo2;
+	}
+	public boolean getGana2() {
+		return Gana2;
+	}
+	public void setGana2(boolean gana2) {
+		Gana2 = gana2;
+	}
 	
 	
 	

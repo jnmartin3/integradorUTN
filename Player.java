@@ -7,9 +7,8 @@ package integradorUTN;
 
 public class Player {
 	
-	public Player() {
-		
-		
+	public Player(String player) {
+		nombre = player;
 	}
 	
 	//Argumentos de clase
@@ -31,9 +30,9 @@ public class Player {
 	public String getNombre() {
 		return nombre;
 	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+//	public void setNombre(String nombre) {
+//		this.nombre = nombre;
+//	}
 	public int getPuntos() {
 		return puntos;
 	}

@@ -5,8 +5,15 @@ public class Main {
 		
 		
 		//Creacion de una instancia de clase AccesoArchivos, llama a su constructor
-//		AccesoArchivos acceder = new AccesoArchivos();
+
 		AccesoArchivos_Metodo2 accesoMetodo2 = new AccesoArchivos_Metodo2();
+		
+		accesoMetodo2.mostrarPronostico();
+		
+		accesoMetodo2.mostrarResultados();
+		
+		accesoMetodo2.calcularResultadoApuesta();
+		
 		
 		
 	}

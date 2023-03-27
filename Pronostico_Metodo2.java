@@ -20,10 +20,10 @@ public class Pronostico_Metodo2 /*extends Partido*/{
 		Partido = Integer.parseInt(Pronostico[1]);
 		Player = Pronostico[2];		
 		Equipo1 = Pronostico[3];
-		Equipo2 = Pronostico[4];
-		Gana1 = Boolean.parseBoolean(Pronostico[5]);
-		Gana2 = Boolean.parseBoolean(Pronostico[6]);
-		Empate = Boolean.parseBoolean(Pronostico[7]);
+		Equipo2 = Pronostico[7];
+		Gana1 = Boolean.parseBoolean(Pronostico[4]);
+		Gana2 = Boolean.parseBoolean(Pronostico[5]);
+		Empate = Boolean.parseBoolean(Pronostico[6]);
 				
 	}
 	

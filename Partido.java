@@ -22,9 +22,9 @@ public class Partido {
 		Ronda = Integer.parseInt(Resultado[0]);
 		idPartido = Integer.parseInt(Resultado[1]);
 		Equipo1 = Resultado[2];
-		Equipo2 = Resultado[3];
-		golesEquipo1 = Integer.parseInt(Resultado[4]);
-		golesEquipo2 = Integer.parseInt(Resultado[5]);
+		Equipo2 = Resultado[5];
+		golesEquipo1 = Integer.parseInt(Resultado[3]);
+		golesEquipo2 = Integer.parseInt(Resultado[4]);
 	}
 	
 	//Metodos getters y setters que permiten acceder a los argumentos de forma controlada

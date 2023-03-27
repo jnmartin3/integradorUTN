@@ -21,7 +21,7 @@ public class AccesoArchivos_Metodo2 {
 		BufferedReader lector;			// Objeto tipo Buffer donde se guarda la lectura hecha al archivo TXT.
 		
 		//Rutas a los arhivos, modificar segun la estructura de archivos de cada computadora
-		String rutaResultados = "E:/JavaProy/cursoUTN/src/integradorUTN/resultados.csv" ;
+		String rutaResultados = "src/integradorUTN/resultados.csv" ;
 		String rutaPronosticos = "E:/JavaProy/cursoUTN/src/integradorUTN/pronosticos.csv";
 		
 		System.out.print("Accesando archivos y creando configuración inicial ");

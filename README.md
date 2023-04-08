@@ -32,3 +32,8 @@ Se estructura el aplicativo con la siguientes clases:
  <img src="https://user-images.githubusercontent.com/97187862/227731001-90128909-4aeb-4055-9281-d5464316ebdc.png">
 </p>
 - En este caso el jugador Cacho pronosticó bien para el partido 2 y 3, por lo cual obtuvo 2 puntos.*
+
+## Segunda entrega
+Cambiamos por completo el código aqui propuesto, por lo que inicié un nuevo repositorio al cual acceden por https://github.com/jnmartin3/tppronostico
+
+Allí continuamos el desarrollo!

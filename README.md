@@ -1,4 +1,4 @@
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+Continuamos desarrollo en https://github.com/jnmartin3/tppronostico
 
 # integradorUTN
  
